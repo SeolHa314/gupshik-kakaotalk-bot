@@ -3,6 +3,7 @@ import re
 import datetime
 import json
 import os
+import sys
 from bs4 import BeautifulSoup
 
 def parsegupshik(schoolCode):
@@ -51,3 +52,6 @@ def loadgupshikdata(schoolCode, _day):
         return datetime.date.today().replace(day = _day).__str__() + "\n" + data[_day]
 
 #print(loadgupshikdata("J100000588", 15))
+
+inputstring = sys.argv[1].split()
+print(loadgupshikdata(inputstring[0], int(inputstring[1])))
