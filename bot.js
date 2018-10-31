@@ -92,7 +92,7 @@ app.post('/message', function(req, res) {
 			getgupshik(schoolID, new Date().getDate())
 			send = {
 				'message': {
-					'text': result.join("\n");
+					'text': result.join("\n")
 				}
 			},
 			'keyboard': {
@@ -143,7 +143,7 @@ app.post('/message', function(req, res) {
 			getgupshik(schoolID, parseInt(msg))
 			send = {
 				'message': {
-					'text' : result.join("\n");
+					'text' : result.join("\n")
 				},
 				'keyboard': {
 					'type': 'buttons',
