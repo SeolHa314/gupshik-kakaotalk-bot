@@ -89,7 +89,8 @@ app.post('/message', function(req, res) {
 			}
 			break;
 		} else {
-			getgupshik(schoolID, new Date().getDate())
+			getgupshik(schoolID, new Date().getDate());
+			getgupshik(schoolID, new Date().getDate());
 			send = {
 				'message': {
 					'text': result.join("\n")
@@ -140,7 +141,8 @@ app.post('/message', function(req, res) {
 			}
 			break;
 		} else if(ifselected == 1) {
-			getgupshik(schoolID, parseInt(msg))
+			getgupshik(schoolID, parseInt(msg));
+			getgupshik(schoolID, parseInt(msg));
 			send = {
 				'message': {
 					'text' : result.join("\n")
