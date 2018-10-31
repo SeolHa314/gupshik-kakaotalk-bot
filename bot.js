@@ -93,11 +93,11 @@ app.post('/message', function(req, res) {
 			send = {
 				'message': {
 					'text': result.join("\n")
+				},
+				'keyboard': {
+					'type': 'buttons',
+					'buttons': ['today\'s gupshik', 'set school ID', 'get selected day\'s gupshik']
 				}
-			},
-			'keyboard': {
-				'type': 'buttons',
-				'buttons': ['today\'s gupshik', 'set school ID', 'get selected day\'s gupshik']
 			}
 		}
 		break;
