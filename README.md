@@ -8,4 +8,4 @@ You can get school codes from https://www.meatwatch.go.kr/biz/bm/sel/schoolListP
 You should install following npm modules:
 express, body-parser, python-shell
 
-__This is not working and is planned to be fixed.__
+__This is not properly working and is planned to be fixed.__
