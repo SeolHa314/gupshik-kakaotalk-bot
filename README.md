@@ -1,5 +1,5 @@
 # gupshik-kakaotalk-bot
-The bot for displaying Gupshik in Kakaotalk for Gyunggi-do students. 
+The bot for displaying School meals in Kakaotalk for Gyunggi-do students. 
 
 Please install modules using pip3 -r requirements.txt
 
